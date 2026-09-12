@@ -1,0 +1,33 @@
+@use "../utilities/mixin" as m;
+@use "../utilities/variables" as v;
+
+.navbar{
+    background-color: #1f1f1f;
+}
+.container-fluid{
+    background-color: #00000000;
+}
+.navbar-nav{
+    gap: 2rem;
+}
+.navbar-brand{
+    color: v.$letra-texto;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 2px;
+    font-size: 2rem;
+    background-color: #95851b;
+    padding: 5px;
+    border-radius: 5px;
+}
+.nav-link{
+    color: v.$letra-texto;
+    font-size: 18px;
+    font-family: "Shanti", sans-serif;
+
+    transition: all 0.5s ease-out;
+
+    &:hover{
+        color: #ffdd00;
+        border-bottom: 2px solid #ffdd00;
+    }
+}

@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shanti&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgba(23, 23, 23, 0.9921568627);
+}
+
+.navbar {
+  background-color: #1f1f1f;
+}
+
+.container-fluid {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.navbar-nav {
+  gap: 2rem;
+}
+
+.navbar-brand {
+  color: #edecec;
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 2px;
+  font-size: 2rem;
+  background-color: #95851b;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.nav-link {
+  color: #edecec;
+  font-size: 18px;
+  font-family: "Shanti", sans-serif;
+  transition: all 0.5s ease-out;
+}
+.nav-link:hover {
+  color: #ffdd00;
+  border-bottom: 2px solid #ffdd00;
+}
+
+.hero {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.4980392157), rgba(0, 0, 0, 0.5058823529)), url(../../assets/barberia.jpg) no-repeat center/cover;
+}
+
+.contenedor-hero {
+  max-width: 90%;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 2rem;
+}
+
+h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 800;
+  font-size: 9.5rem;
+  color: #e3b829;
+}
+
+.frase {
+  font-size: 2.5rem;
+  font-weight: 600;
+  font-family: "Bebas Neue", sans-serif;
+  color: #bababa;
+}
+
+.descripcion {
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: "Shanti", sans-serif;
+  color: #edecec;
+  max-width: 60%;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #d3c6a6;
+  border-radius: 20px 20px 0 0;
+}
+footer p {
+  padding: 1rem;
+  font-weight: 500;
+}
+
+section.section-footer nav ul li {
+  list-style: none;
+}
+
+.contenedor-footer {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 2rem;
+  gap: 1rem;
+  border-bottom: 1px solid #827659;
+}
+
+.section-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.titulo-footer {
+  font-family: "Shanti", sans-serif;
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #1f1f1f;
+  border-bottom: 1px solid #827659;
+}
+
+.letra-especial {
+  font-family: "Lobster", sans-serif;
+  font-size: 20px;
+  color: #2b2b2b;
+  letter-spacing: 1px;
+}
+
+.link-footer {
+  text-decoration: none;
+  color: #232323;
+  font-weight: 500;
+}
+
+.icon {
+  width: 60;
+  height: 50;
+}
+
+.link-footer {
+  gap: 1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/*# sourceMappingURL=style.css.map */
