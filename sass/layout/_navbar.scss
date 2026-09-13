@@ -1,32 +1,42 @@
 @use "../utilities/mixin" as m;
 @use "../utilities/variables" as v;
 
-.navbar{
+.navbar {
     background-color: #1f1f1f;
+    align-items: center;
 }
-.container-fluid{
+
+.container-fluid {
     background-color: #00000000;
 }
-.navbar-nav{
+
+.navbar-nav {
     gap: 2rem;
 }
-.navbar-brand{
-    color: v.$letra-texto;
+
+.navbar-brand {
+    color: v.$letra-dorada;
     font-family: "Bebas Neue", sans-serif;
-    letter-spacing: 2px;
-    font-size: 2rem;
-    background-color: #95851b;
-    padding: 5px;
+    font-size: 19px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    padding: 4px;
     border-radius: 5px;
+    border: 2px solid v.$letra-dorada;
+
+    &:hover {
+        color: v.$letra-dorada;
+    }
 }
-.nav-link{
+
+.nav-link {
     color: v.$letra-texto;
     font-size: 18px;
     font-family: "Shanti", sans-serif;
 
     transition: all 0.5s ease-out;
 
-    &:hover{
+    &:hover {
         color: #ffdd00;
         border-bottom: 2px solid #ffdd00;
     }

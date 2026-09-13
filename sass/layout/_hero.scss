@@ -2,7 +2,7 @@
 @use "../utilities/variables" as v;
 
 
-.hero{
+.hero {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -10,25 +10,30 @@
     height: 100vh;
     background: linear-gradient(#0000007f, #00000081), url(../assets/barberia.jpg) no-repeat center / cover;
 }
-.contenedor-hero{
+
+.contenedor-hero {
     max-width: 90%;
-    justify-content:flex-start;
+    justify-content: flex-start;
     align-items: center;
     margin-left: 2rem;
+    gap: 13px;
 }
-h1{
+
+h1 {
     font-family: "Bebas Neue", sans-serif;
     font-weight: 800;
     font-size: 9.5rem;
     color: v.$letra-especial;
 }
-.frase{
+
+.frase {
     font-size: 2.5rem;
     font-weight: 600;
     font-family: "Bebas Neue", sans-serif;
     color: v.$letra-subespecial;
 }
-.descripcion{
+
+.descripcion {
     font-size: 1.5rem;
     font-weight: 700;
     font-family: "Shanti", sans-serif;

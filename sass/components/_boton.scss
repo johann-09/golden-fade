@@ -1,0 +1,21 @@
+@use "../utilities/mixin" as m;
+@use "../utilities/variables" as v;
+
+.boton{
+    display: inline-block;
+    text-decoration: none;
+    color:#412402;
+    background-color: v.$letra-dorada;
+    font-family: "Shanti", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-top: 10px;
+    transition: all 0.25s ease;
+
+    &:hover{
+        transform: translateY(-3px);
+        box-shadow: 0 8px 16px #d4af3759;
+    }
+}
