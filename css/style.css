@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Shanti&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
@@ -8,6 +9,24 @@
 
 body {
   background-color: rgba(23, 23, 23, 0.9921568627);
+}
+
+.boton {
+  display: inline-block;
+  text-decoration: none;
+  color: #412402;
+  background-color: #cda10f;
+  font-family: "Shanti", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-top: 10px;
+  transition: all 0.25s ease;
+}
+.boton:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 16px rgba(212, 175, 55, 0.3490196078);
 }
 
 .navbar {
@@ -65,7 +84,7 @@ body {
   gap: 13px;
 }
 
-h1 {
+.titulo-inicio {
   font-family: "Bebas Neue", sans-serif;
   font-weight: 800;
   font-size: 9.5rem;
@@ -155,22 +174,82 @@ section.section-footer nav ul li {
   flex-wrap: wrap;
 }
 
-.boton {
-  display: inline-block;
-  text-decoration: none;
-  color: #412402;
-  background-color: #cda10f;
-  font-family: "Shanti", sans-serif;
-  font-size: 18px;
-  font-weight: 400;
-  padding: 1rem;
-  border-radius: 10px;
-  margin-top: 10px;
-  transition: all 0.25s ease;
+.servicios {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  background: linear-gradient(rgba(0, 0, 0, 0.4980392157), rgba(0, 0, 0, 0.5058823529)), url(../assets/barber-dentro.jpg) no-repeat center/cover;
+  gap: 1.5rem;
+  padding-top: 1.5rem;
+  margin-bottom: 2.5rem;
 }
-.boton:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 8px 16px rgba(212, 175, 55, 0.3490196078);
+
+.title-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.titulo-servicio {
+  color: #e3b829;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 5rem;
+  text-align: center;
+}
+
+.marquee {
+  overflow: hidden;
+  white-space: nowrap;
+  background-color: #cda10f;
+  padding: 17px;
+  width: 100%;
+}
+
+.marquee-item {
+  font-family: "Shanti", sans-serif;
+  font-size: 20px;
+}
+.marquee-item::after {
+  content: "•";
+  margin: 0 15px;
+}
+
+.marquee-contenido {
+  display: inline-flex;
+  animation: desplazar 25s linear infinite;
+}
+
+.marquee:hover .marquee-contenido {
+  animation-play-state: paused;
+}
+
+@keyframes desplazar {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+.cortes-servicios {
+  background-color: #292929;
+  margin: 0 20px;
+}
+
+.corte-item {
+  background-color: #323232;
+  border: 2px solid #cda10f;
+  margin-bottom: 1.5rem;
+}
+
+.foto-corte {
+  width: 120px;
+  height: 100%;
+  border-left: 2px solid #cda10f;
 }
 
 /*# sourceMappingURL=style.css.map */

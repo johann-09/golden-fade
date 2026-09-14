@@ -15,17 +15,17 @@
 }
 
 .navbar-brand {
-    color: v.$letra-dorada;
+    color: v.$color-dorado;
     font-family: "Bebas Neue", sans-serif;
     font-size: 19px;
     font-weight: 600;
     letter-spacing: 3px;
     padding: 4px;
     border-radius: 5px;
-    border: 2px solid v.$letra-dorada;
+    border: 2px solid v.$color-dorado;
 
     &:hover {
-        color: v.$letra-dorada;
+        color: v.$color-dorado;
     }
 }
 

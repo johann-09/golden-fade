@@ -1,0 +1,80 @@
+@use "../utilities/mixin" as m;
+@use "../utilities/variables" as v;
+
+.servicios {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    background: linear-gradient(#0000007f, #00000081), url(../assets/barber-dentro.jpg) no-repeat center / cover;
+    gap: 1.5rem;
+    padding-top: 1.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.title-description {
+    @include m.dis-flex;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.titulo-servicio {
+    color: v.$letra-especial;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 5rem;
+    text-align: center;
+}
+
+.marquee {
+    overflow: hidden;
+    white-space: nowrap;
+    background-color: v.$color-dorado;
+    padding: 17px;
+    width: 100%;
+}
+
+.marquee-item {
+    font-family: "Shanti", sans-serif;
+    font-size: 20px;
+
+    &::after {
+        content: '\2022';
+        margin: 0 15px;
+    }
+}
+
+.marquee-contenido {
+    display: inline-flex;
+    animation: desplazar 25s linear infinite;
+}
+
+.marquee:hover .marquee-contenido {
+    animation-play-state: paused;
+}
+
+@keyframes desplazar {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+// Seccion cortes-servicios
+.cortes-servicios{
+    background-color: #292929;
+    margin: 0 20px;
+}
+
+.corte-item{
+    background-color: #323232;
+    border: 2px solid v.$color-dorado;
+    margin-bottom: 1.5rem;
+}
+.foto-corte{
+    width: 120px;
+    height: 100%;
+    border-left: 2px solid v.$color-dorado;
+}
