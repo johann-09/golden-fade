@@ -6,16 +6,18 @@
     text-decoration: none;
     color:#412402;
     background-color: v.$color-dorado;
-    font-family: "Shanti", sans-serif;
+    background-size: 600% 600%;
+    font-family: 'Gill Sans', sans-serif;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 550;
     padding: 1rem;
     border-radius: 10px;
     margin-top: 10px;
-    transition: all 0.25s ease;
+    margin-bottom: 1rem;
+
+    transition: all 0.5s linear;
 
     &:hover{
-        transform: translateY(-5px);
         box-shadow: 0 8px 16px #d4af3759;
     }
 }

@@ -14,14 +14,13 @@ body {
   color: #412402;
   background-color: #cda10f;
   background-size: 600% 600%;
-  font-family: "Gill Sans", sans-serif;
+  font-family: "Shanti", sans-serif;
   font-size: 18px;
   font-weight: 550;
   padding: 1rem;
   border-radius: 10px;
   margin-top: 10px;
-  margin-bottom: 1rem;
-  transition: all 0.5s linear;
+  transition: all 0.25s ease;
 }
 .boton:hover {
   box-shadow: 0 8px 16px rgba(212, 175, 55, 0.3490196078);
@@ -43,9 +42,9 @@ body {
 .navbar-brand {
   display: inline-block;
   color: #cda10f;
-  font-family: Verdana, sans-serif;
+  font-family: sans-serif;
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: 3px;
   padding: 1px 5px;
   border-radius: 5px;
@@ -58,8 +57,7 @@ body {
 .nav-link {
   color: #edecec;
   font-size: 18px;
-  font-family: "Lucida Grande", sans-serif;
-  font-weight: 500;
+  font-family: "Shanti", sans-serif;
   transition: all 0.5s ease-out;
 }
 .nav-link:hover {
@@ -85,23 +83,23 @@ body {
 }
 
 .titulo-inicio {
-  font-family: Impact, sans-serif;
-  font-weight: 400;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 800;
   font-size: 9.5rem;
   color: #e3b829;
 }
 
 .frase {
   font-size: 2.5rem;
-  font-weight: 400;
-  font-family: Impact, sans-serif;
+  font-weight: 600;
+  font-family: "Bebas Neue", sans-serif;
   color: #bababa;
 }
 
 .descripcion {
   font-size: 1.5rem;
   font-weight: 700;
-  font-family: "Gill Sans", sans-serif;
+  font-family: "Shanti", sans-serif;
   color: #edecec;
   max-width: 60%;
 }
@@ -142,7 +140,7 @@ section.section-footer nav ul li {
 }
 
 .titulo-footer {
-  font-family: "Gill Sans", sans-serif;
+  font-family: "Shanti", sans-serif;
   font-size: 2rem;
   margin-bottom: 10px;
   color: #1f1f1f;
@@ -150,9 +148,8 @@ section.section-footer nav ul li {
 }
 
 .letra-especial {
-  font-family: "Lucida Sans", sans-serif;
+  font-family: "Lobster", sans-serif;
   font-size: 20px;
-  font-weight: 600;
   color: #2b2b2b;
   letter-spacing: 1px;
 }
@@ -197,7 +194,7 @@ section.section-footer nav ul li {
 
 .titulo-servicio {
   color: #e3b829;
-  font-family: Impact, sans-serif;
+  font-family: "Bebas Neue", sans-serif;
   font-size: 5rem;
   text-align: center;
 }
@@ -211,7 +208,7 @@ section.section-footer nav ul li {
 }
 
 .marquee-item {
-  font-family: "Gill Sans", sans-serif;
+  font-family: "Shanti", sans-serif;
   font-size: 20px;
 }
 .marquee-item::after {
@@ -240,10 +237,6 @@ section.section-footer nav ul li {
   margin: 1rem 20px;
 }
 
-.cortes-pelo {
-  text-align: center;
-}
-
 .corte-item {
   background-color: #323232;
   border: 2px solid #cda10f;
@@ -255,17 +248,13 @@ section.section-footer nav ul li {
   border-radius: 6px;
   padding: 1rem;
   gap: 18px;
-  transition: all 0.2s linear;
-}
-.corte-item:hover {
-  box-shadow: 0 3px 5px #a07d0a;
-  transform: translateY(-7px);
 }
 
 .foto-corte {
   width: 120px;
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-radius: 5px;
 }
 
@@ -276,14 +265,13 @@ section.section-footer nav ul li {
 
 .tit-desc-corte {
   color: white;
-  font-family: "Gill Sans", sans-serif;
-  font-weight: 600;
+  font-family: "Bebas Neue", sans-serif;
   letter-spacing: 1px;
 }
 
 .desc-corte {
   color: #bababa;
-  font-family: "Gill Sans", sans-serif;
+  font-family: "Shanti", sans-serif;
   font-weight: 600;
   font-size: 19px;
 }
@@ -292,6 +280,4 @@ section.section-footer nav ul li {
   color: #e3b829;
   font-weight: 500;
   font-size: 20px;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=main.css.map */

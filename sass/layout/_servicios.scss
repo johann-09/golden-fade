@@ -20,7 +20,7 @@
 
 .titulo-servicio {
     color: v.$letra-especial;
-    font-family: "Bebas Neue", sans-serif;
+    font-family: Impact, sans-serif;
     font-size: 5rem;
     text-align: center;
 }
@@ -34,7 +34,7 @@
 }
 
 .marquee-item {
-    font-family: "Shanti", sans-serif;
+    font-family: 'Gill Sans', sans-serif;
     font-size: 20px;
 
     &::after {
@@ -64,17 +64,55 @@
 
 // Seccion cortes-servicios
 .cortes-servicios{
-    background-color: #292929;
-    margin: 0 20px;
+    margin: 1rem 20px;
+}
+.cortes-pelo{
+    text-align: center;
 }
 
 .corte-item{
     background-color: #323232;
     border: 2px solid v.$color-dorado;
+    max-width: 750px;
+    margin: 0 auto;
     margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    border-radius: 6px;
+    padding: 1rem;
+    gap: 18px;
+
+    transition: all 0.2s linear;
+
+    &:hover{
+        box-shadow: 0 3px 5px #a07d0a;
+        transform: translateY(-7px);
+    }
 }
 .foto-corte{
     width: 120px;
     height: 100%;
-    border-left: 2px solid v.$color-dorado;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.descripcion-corte{
+    justify-content: flex-start;
+    margin-left: 5px;
+}
+.tit-desc-corte{
+    color:white;
+    font-family:'Gill Sans', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.desc-corte{
+    color: v.$letra-subespecial;
+    font-family: 'Gill Sans', sans-serif;
+    font-weight: 600;
+    font-size: 19px;
+}
+.precio{
+    color: v.$letra-especial;
+    font-weight: 500;
+    font-size: 20px;
 }
