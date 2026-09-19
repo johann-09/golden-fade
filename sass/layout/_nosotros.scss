@@ -1,0 +1,34 @@
+@use "../utilities/mixin" as m;
+@use "../utilities/variables" as v;
+
+.seccion-historia-barberia{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom, #0000008e, #00000084), url(../assets/barberia-foto-afuera.jpg) no-repeat center / cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.descripcion-historia{
+    margin: 1rem;
+}
+.titulo-nosotros{
+    font-size: 45px;
+    color: v.$letra-especial;
+    font-family: monospace;
+    font-weight: 600;
+
+}
+.frase-desc{
+    font-size: 25px;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 500;
+    color: v.$letra-subespecial;
+}
+.parrafo-historia{
+    color: v.$letra-texto;
+    width: 50%;
+    font-size: 15px;    
+    font-weight: 500;
+    justify-content: center;
+}

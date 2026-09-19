@@ -195,7 +195,7 @@ section.section-footer nav ul li {
   margin-top: 15px;
 }
 
-.titulo-servicio {
+.titulo-estandar {
   color: #e3b829;
   font-family: Impact, sans-serif;
   font-size: 5rem;
@@ -240,7 +240,7 @@ section.section-footer nav ul li {
   margin: 1rem 20px;
 }
 
-.cortes-pelo {
+.reservar {
   text-align: center;
 }
 
@@ -292,6 +292,41 @@ section.section-footer nav ul li {
   color: #e3b829;
   font-weight: 500;
   font-size: 20px;
+}
+
+.seccion-historia-barberia {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5568627451), rgba(0, 0, 0, 0.5176470588)), url(../assets/barberia-foto-afuera.jpg) no-repeat center/cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.descripcion-historia {
+  margin: 1rem;
+}
+
+.titulo-nosotros {
+  font-size: 45px;
+  color: #e3b829;
+  font-family: monospace;
+  font-weight: 600;
+}
+
+.frase-desc {
+  font-size: 25px;
+  font-family: "Segoe UI", sans-serif;
+  font-weight: 500;
+  color: #bababa;
+}
+
+.parrafo-historia {
+  color: #edecec;
+  width: 50%;
+  font-size: 15px;
+  font-weight: 500;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=style.css.map */
