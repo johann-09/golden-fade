@@ -294,28 +294,41 @@ section.section-footer nav ul li {
   font-size: 20px;
 }
 
-.seccion-historia-barberia {
+.imagen-barberia {
   width: 100%;
-  height: 100vh;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5568627451), rgba(0, 0, 0, 0.5176470588)), url(../assets/barberia-foto-afuera.jpg) no-repeat center/cover;
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
+  height: 400px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5058823529), rgba(0, 0, 0, 0.5058823529)), url(../../assets/barberia-foto-afuera.jpg) no-repeat center/cover;
+}
+
+.marquee-nosotros {
+  padding: 1rem;
+}
+
+.marquee-item-nosotros {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Trebuchet MS", sans-serif;
 }
 
 .descripcion-historia {
-  margin: 1rem;
+  text-align: center;
+  padding: 1.5rem;
+  background-color: #282828;
+  border-top: 4px solid #373737;
 }
 
 .titulo-nosotros {
-  font-size: 45px;
+  font-size: 35px;
+  font-family: Impact, sans-serif;
+  font-weight: 400;
   color: #e3b829;
-  font-family: monospace;
-  font-weight: 600;
+  border-bottom: 2px solid #cda10f;
+  width: 70%;
+  margin: 0 auto;
 }
 
 .frase-desc {
-  font-size: 25px;
+  font-size: 20px;
   font-family: "Segoe UI", sans-serif;
   font-weight: 500;
   color: #bababa;
@@ -323,10 +336,87 @@ section.section-footer nav ul li {
 
 .parrafo-historia {
   color: #edecec;
-  width: 50%;
-  font-size: 15px;
+  width: 70%;
+  margin: 0 auto;
+  font-size: 18px;
   font-weight: 500;
   justify-content: center;
+}
+
+.estadisticas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 2rem;
+  background-color: #161616;
+  border-bottom: 2px solid #373737;
+}
+
+.stat-item {
+  text-align: center;
+}
+
+.stat-numero {
+  font-size: 32px;
+  font-weight: 600;
+  font-family: Verdana, sans-serif;
+  color: #e3b829;
+}
+
+.stat-frase {
+  font-size: 19px;
+  font-family: "Trebuchet MS", sans-serif;
+  letter-spacing: 0.8px;
+  color: #8c8b8b;
+}
+
+.equipo {
+  text-align: center;
+  padding: 2rem;
+  gap: 2rem;
+  background-color: #1d1c1c;
+}
+
+.titulo-equipo {
+  color: #e3b829;
+  font-family: "Lucida Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.item-equipo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 4rem;
+  margin-bottom: 1rem;
+}
+
+.barbero {
+  border-radius: 15px;
+  padding: 1.5rem;
+  transition: all 0.5s ease;
+}
+.barbero:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 2px 6px #cda10f;
+}
+
+.barbero-foto {
+  width: 215px;
+  height: 175px;
+  border-radius: 75%;
+  border: 4px solid #cda10f;
+}
+
+.nombre-barbero {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: "Trebuchet MS", sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */
