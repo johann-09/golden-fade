@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&family=Geologica:wght,CRSV@100..900,0&family=Oleo+Script+Swash+Caps:wght@400;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -14,7 +15,7 @@ body {
   color: #412402;
   background-color: #cda10f;
   background-size: 600% 600%;
-  font-family: "Gill Sans", sans-serif;
+  font-family: "Geologica", sans-serif;
   font-size: 18px;
   font-weight: 550;
   padding: 1rem;
@@ -58,7 +59,7 @@ body {
 .nav-link {
   color: #edecec;
   font-size: 18px;
-  font-family: "Lucida Grande", sans-serif;
+  font-family: "Geologica", sans-serif;
   font-weight: 500;
   transition: all 0.5s ease-out;
 }
@@ -85,23 +86,23 @@ body {
 }
 
 .titulo-inicio {
-  font-family: Impact, sans-serif;
-  font-weight: 400;
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 600;
   font-size: 9.5rem;
   color: #e3b829;
 }
 
 .frase {
   font-size: 2.5rem;
-  font-weight: 400;
-  font-family: Impact, sans-serif;
+  font-weight: 500;
+  font-family: "Fjalla One", sans-serif;
   color: #bababa;
 }
 
 .descripcion {
   font-size: 1.5rem;
   font-weight: 700;
-  font-family: "Gill Sans", sans-serif;
+  font-family: "Geologica", sans-serif;
   color: #edecec;
   max-width: 60%;
 }
@@ -142,7 +143,7 @@ section.section-footer nav ul li {
 }
 
 .titulo-footer {
-  font-family: "Gill Sans", sans-serif;
+  font-family: "Fjalla One", sans-serif;
   font-size: 2rem;
   margin-bottom: 10px;
   color: #1f1f1f;
@@ -150,7 +151,7 @@ section.section-footer nav ul li {
 }
 
 .letra-especial {
-  font-family: "Lucida Sans", sans-serif;
+  font-family: "Oleo Script Swash Caps", system-ui;
   font-size: 20px;
   font-weight: 600;
   color: #2b2b2b;
@@ -197,7 +198,8 @@ section.section-footer nav ul li {
 
 .titulo-estandar {
   color: #e3b829;
-  font-family: Impact, sans-serif;
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 600;
   font-size: 5rem;
   text-align: center;
 }
@@ -211,7 +213,7 @@ section.section-footer nav ul li {
 }
 
 .marquee-item {
-  font-family: "Gill Sans", sans-serif;
+  font-family: "Geologica", sans-serif;
   font-size: 20px;
 }
 .marquee-item::after {
@@ -276,20 +278,21 @@ section.section-footer nav ul li {
 
 .tit-desc-corte {
   color: white;
-  font-family: "Gill Sans", sans-serif;
+  font-family: "Geologica", sans-serif;
   font-weight: 600;
   letter-spacing: 1px;
 }
 
 .desc-corte {
   color: #bababa;
-  font-family: "Gill Sans", sans-serif;
+  font-family: "Geologica", sans-serif;
   font-weight: 600;
   font-size: 19px;
 }
 
 .precio {
   color: #e3b829;
+  font-family: "Geologica", sans-serif;
   font-weight: 500;
   font-size: 20px;
 }
@@ -307,7 +310,7 @@ section.section-footer nav ul li {
 .marquee-item-nosotros {
   font-size: 20px;
   font-weight: 700;
-  font-family: "Trebuchet MS", sans-serif;
+  font-family: "Geologica", sans-serif;
 }
 
 .descripcion-historia {
@@ -319,7 +322,7 @@ section.section-footer nav ul li {
 
 .titulo-nosotros {
   font-size: 35px;
-  font-family: Impact, sans-serif;
+  font-family: "Fjalla One", sans-serif;
   font-weight: 400;
   color: #e3b829;
   border-bottom: 2px solid #cda10f;
@@ -328,8 +331,8 @@ section.section-footer nav ul li {
 }
 
 .frase-desc {
-  font-size: 20px;
-  font-family: "Segoe UI", sans-serif;
+  font-size: 25px;
+  font-family: "Fjalla One", sans-serif;
   font-weight: 500;
   color: #bababa;
 }
@@ -340,6 +343,7 @@ section.section-footer nav ul li {
   margin: 0 auto;
   font-size: 18px;
   font-weight: 500;
+  font-family: "Geologica", sans-serif;
   justify-content: center;
 }
 
@@ -360,13 +364,13 @@ section.section-footer nav ul li {
 .stat-numero {
   font-size: 32px;
   font-weight: 600;
-  font-family: Verdana, sans-serif;
+  font-family: "Geologica", sans-serif;
   color: #e3b829;
 }
 
 .stat-frase {
   font-size: 19px;
-  font-family: "Trebuchet MS", sans-serif;
+  font-family: "Geologica", sans-serif;
   letter-spacing: 0.8px;
   color: #8c8b8b;
 }
@@ -380,7 +384,7 @@ section.section-footer nav ul li {
 
 .titulo-equipo {
   color: #e3b829;
-  font-family: "Lucida Sans", sans-serif;
+  font-family: "Fjalla One", sans-serif;
   font-size: 30px;
   font-weight: 700;
   margin-bottom: 1.5rem;
@@ -416,7 +420,7 @@ section.section-footer nav ul li {
   color: #ffffff;
   font-size: 30px;
   font-weight: 600;
-  font-family: "Trebuchet MS", sans-serif;
+  font-family: "Geologica", sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */
