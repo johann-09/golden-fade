@@ -20,7 +20,8 @@
 
 .titulo-estandar {
     color: v.$letra-especial;
-    font-family: Impact, sans-serif;
+    font-family: v.$fuente-titulo;
+    font-weight: 600;
     font-size: 5rem;
     text-align: center;
 }
@@ -34,7 +35,7 @@
 }
 
 .marquee-item {
-    font-family: 'Gill Sans', sans-serif;
+    font-family: v.$fuente-texto;
     font-size: 20px;
 
     &::after {
@@ -101,18 +102,19 @@
 }
 .tit-desc-corte{
     color:white;
-    font-family:'Gill Sans', sans-serif;
+    font-family: v.$fuente-texto;
     font-weight: 600;
     letter-spacing: 1px;
 }
 .desc-corte{
     color: v.$letra-subespecial;
-    font-family: 'Gill Sans', sans-serif;
+    font-family: v.$fuente-texto;
     font-weight: 600;
     font-size: 19px;
 }
 .precio{
     color: v.$letra-especial;
+    font-family: v.$fuente-texto;
     font-weight: 500;
     font-size: 20px;
 }
