@@ -1,0 +1,42 @@
+@use "../utilities/mixin" as m;
+@use "../utilities/variables" as v;
+
+.ubicacion-titulo{
+    font-size: 45px;
+}
+.encontranos{
+    font-size: 25px;
+}
+.mapa-contenedor{
+    background-color: #2e2e2e;
+    @include m.dis-flex($direction: row);
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 1rem;
+    border-radius: 20px;
+    width: 70%;
+    margin: 1rem auto;
+}
+.desc-mapa{
+    text-align: center;
+}
+.calle-mapa{
+    color:white;
+    font-family: v.$fuente-texto;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+    &::before{
+        content: "📍";
+    }
+}
+.horario{
+    color: v.$letra-subespecial;
+    font-family: v.$fuente-texto;
+    font-weight: 600;
+    font-size: 19px;
+
+    &::before{
+        content: "🕚";
+    }
+}

@@ -23,10 +23,9 @@
     border-top: 4px solid #373737;
 }
 .titulo-nosotros{
+    @extend %color-fuente-titulo;
     font-size: 35px;
-    font-family: v.$fuente-titulo;
     font-weight: 400;
-    color: v.$letra-especial;
     border-bottom: 2px solid v.$color-dorado;
     width: 70%;
     margin: 0 auto;
@@ -79,8 +78,7 @@
     background-color: #1d1c1c;
 }
 .titulo-equipo{
-    color: v.$letra-especial;
-    font-family: v.$fuente-titulo;
+    @extend %color-fuente-titulo;
     font-size: 30px;
     font-weight: 700;
     margin-bottom: 1.5rem;

@@ -19,8 +19,7 @@
 }
 
 .titulo-estandar {
-    color: v.$letra-especial;
-    font-family: v.$fuente-titulo;
+    @extend %color-fuente-titulo;
     font-weight: 600;
     font-size: 5rem;
     text-align: center;

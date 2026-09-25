@@ -9,6 +9,11 @@ body {
   background-color: rgba(23, 23, 23, 0.9921568627);
 }
 
+.titulo-nosotros, .titulo-equipo, .titulo-estandar, .titulo-inicio {
+  color: #e3b829;
+  font-family: "Fjalla One", sans-serif;
+}
+
 .boton {
   display: inline-block;
   text-decoration: none;
@@ -86,10 +91,8 @@ body {
 }
 
 .titulo-inicio {
-  font-family: "Fjalla One", sans-serif;
   font-weight: 600;
   font-size: 9.5rem;
-  color: #e3b829;
 }
 
 .frase {
@@ -197,8 +200,6 @@ section.section-footer nav ul li {
 }
 
 .titulo-estandar {
-  color: #e3b829;
-  font-family: "Fjalla One", sans-serif;
   font-weight: 600;
   font-size: 5rem;
   text-align: center;
@@ -322,9 +323,7 @@ section.section-footer nav ul li {
 
 .titulo-nosotros {
   font-size: 35px;
-  font-family: "Fjalla One", sans-serif;
   font-weight: 400;
-  color: #e3b829;
   border-bottom: 2px solid #cda10f;
   width: 70%;
   margin: 0 auto;
@@ -383,8 +382,6 @@ section.section-footer nav ul li {
 }
 
 .titulo-equipo {
-  color: #e3b829;
-  font-family: "Fjalla One", sans-serif;
   font-size: 30px;
   font-weight: 700;
   margin-bottom: 1.5rem;
@@ -421,6 +418,52 @@ section.section-footer nav ul li {
   font-size: 30px;
   font-weight: 600;
   font-family: "Geologica", sans-serif;
+}
+
+.ubicacion-titulo {
+  font-size: 45px;
+}
+
+.encontranos {
+  font-size: 25px;
+}
+
+.mapa-contenedor {
+  background-color: #2e2e2e;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 1rem;
+  border-radius: 20px;
+  width: 70%;
+  margin: 1rem auto;
+}
+
+.desc-mapa {
+  text-align: center;
+}
+
+.calle-mapa {
+  color: white;
+  font-family: "Geologica", sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.calle-mapa::before {
+  content: "📍";
+}
+
+.horario {
+  color: #bababa;
+  font-family: "Geologica", sans-serif;
+  font-weight: 600;
+  font-size: 19px;
+}
+.horario::before {
+  content: "🕚";
 }
 
 /*# sourceMappingURL=style.css.map */

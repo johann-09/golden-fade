@@ -3,12 +3,17 @@ $letra-especial:#e3b829;
 $letra-subespecial:#bababa;
 $letra-texto:#edecec;
 $color-dorado:#cda10f;
-$boton-gradiente: linear-gradient(to right, #dab22f, #c92020);
 
 // Variables de tipografía
 $fuente-titulo: "Fjalla One", sans-serif;
 $fuente-texto: "Geologica", sans-serif;
 $fuente-especial: "Oleo Script Swash Caps", system-ui;
+
+// Extend para el color y el titulo
+%color-fuente-titulo{
+    color: #e3b829;
+    font-family: "Fjalla One", sans-serif;
+}
 
 // FUENTES DE VS CODE STUDIO
 // font-family: Impact, sans-serif; --TÍTULOS
