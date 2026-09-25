@@ -1,0 +1,114 @@
+// Breakpoints
+
+// Medias celulares pequeños
+
+@media (max-width: 400px){
+    // Pagina de Inicio
+
+    .contenedor-hero{
+        gap: 15px;
+    }
+
+    .titulo-inicio{
+        font-size: 14px;
+    }
+
+    .frase{
+        font-size: 12px;
+    }
+
+    .descripcion{
+        font-size: 8px;
+    }
+
+}
+
+// Medias celulares
+
+@media (max-width: 576px) {
+
+    // Pagina de Inicio
+
+    .contenedor-hero{
+        gap: 15px;
+    }
+
+    .titulo-inicio{
+        font-size: 6.5rem;
+    }
+
+    .frase{
+        font-size: 1.5rem;
+    }
+
+    .descripcion{
+        font-size: 1.2rem;
+    }
+
+    // Pagina de Nosotros
+
+    .titulo-nosotros{
+        font-size: 30px;
+    }
+
+    .frase-desc{
+        font-size: 20px;
+    }
+
+    .parrafo-historia{
+        width: 80%;
+        font-size: 15px;
+    }
+
+    .stat-numero{
+        font-size: 29px;
+    }
+
+    // Pagina de Ubicación
+
+    .mapa-contenedor{
+        width: 80%;
+    }
+
+    .calle-mapa{
+        font-size: 23px;
+    }
+
+    .horario{
+        font-size: 15px;
+    }
+
+    // Pagina de Contactos
+
+    .desc-boton {
+    font-size: 12px;
+
+    span {
+        font-size: 13px;
+        font-weight: 800;
+    }
+}
+
+}
+
+// Medias de tablets
+
+@media (max-width: 768px){
+    // Pagina de Inicio
+
+    .contenedor-hero{
+        gap: 18px;
+    }
+
+    .titulo-inicio{
+        font-size: 7rem;
+    }
+
+    .frase{
+        font-size: 2rem;
+    }
+
+    .descripcion{
+        font-size: 1.5rem;
+    }
+}

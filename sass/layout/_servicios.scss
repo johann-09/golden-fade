@@ -63,14 +63,15 @@
 }
 
 // Seccion cortes-servicios
-.cortes-servicios{
+.cortes-servicios {
     margin: 1rem 20px;
 }
-.reservar{
+
+.reservar {
     text-align: center;
 }
 
-.corte-item{
+.corte-item {
     background-color: #323232;
     border: 2px solid v.$color-dorado;
     max-width: 750px;
@@ -84,34 +85,39 @@
 
     transition: all 0.2s linear;
 
-    &:hover{
+    &:hover {
         box-shadow: 0 3px 5px #a07d0a;
         transform: translateY(-7px);
     }
 }
-.foto-corte{
+
+.foto-corte {
     width: 120px;
     height: 100%;
     object-fit: cover;
     border-radius: 5px;
 }
-.descripcion-corte{
+
+.descripcion-corte {
     justify-content: flex-start;
     margin-left: 5px;
 }
-.tit-desc-corte{
-    color:white;
+
+.tit-desc-corte {
+    color: white;
     font-family: v.$fuente-texto;
     font-weight: 600;
     letter-spacing: 1px;
 }
-.desc-corte{
+
+.desc-corte {
     color: v.$letra-subespecial;
     font-family: v.$fuente-texto;
     font-weight: 600;
     font-size: 19px;
 }
-.precio{
+
+.precio {
     color: v.$letra-especial;
     font-family: v.$fuente-texto;
     font-weight: 500;

@@ -17,7 +17,7 @@
     max-width: 750px;
     transition: all 0.3s linear;
 
-    &:hover{
+    &:hover {
         transform: translateY(-5px);
     }
 }
@@ -33,30 +33,30 @@
     }
 }
 
-.bt-desc{
+.bt-desc {
     color: #eeeded;
 }
 
-.bt-ws{
+.bt-ws {
     background-color: #29c562;
 
-    &:hover{
+    &:hover {
         box-shadow: 2px 3px 5px #1b8944;
     }
 }
 
-.bt-ig{
+.bt-ig {
     background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
 
-    &:hover{
+    &:hover {
         box-shadow: 2px 3px 5px #dc2743;
     }
 }
 
-.bt-x{
+.bt-x {
     background-color: #000000;
 
-    &:hover{
+    &:hover {
         box-shadow: 2px 3px 5px #343434;
     }
 }

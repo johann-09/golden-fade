@@ -1,13 +1,15 @@
 @use "../utilities/mixin" as m;
 @use "../utilities/variables" as v;
 
-.titulo-principal{
+.titulo-principal {
     font-size: 45px;
 }
-.descripcion-titulo{
+
+.descripcion-titulo {
     font-size: 25px;
 }
-.mapa-contenedor{
+
+.mapa-contenedor {
     background-color: #2e2e2e;
     @include m.dis-flex($direction: row);
     flex-wrap: wrap;
@@ -17,26 +19,29 @@
     width: 70%;
     margin: 1rem auto;
 }
-.desc-mapa{
+
+.desc-mapa {
     text-align: center;
 }
-.calle-mapa{
-    color:white;
+
+.calle-mapa {
+    color: white;
     font-family: v.$fuente-texto;
     font-weight: 600;
     letter-spacing: 1px;
 
-    &::before{
+    &::before {
         content: "📍";
     }
 }
-.horario{
+
+.horario {
     color: v.$letra-subespecial;
     font-family: v.$fuente-texto;
     font-weight: 600;
     font-size: 19px;
 
-    &::before{
+    &::before {
         content: "🕚";
     }
 }

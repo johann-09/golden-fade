@@ -1,10 +1,10 @@
 @use "../utilities/mixin" as m;
 @use "../utilities/variables" as v;
 
-.boton{
+.boton {
     display: inline-block;
     text-decoration: none;
-    color:#412402;
+    color: #412402;
     background-color: v.$color-dorado;
     background-size: 600% 600%;
     font-family: "Geologica", sans-serif;
@@ -17,7 +17,7 @@
 
     transition: all 0.5s linear;
 
-    &:hover{
+    &:hover {
         box-shadow: 0 8px 16px #d4af3759;
     }
 }

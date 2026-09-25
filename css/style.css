@@ -527,4 +527,76 @@ section.section-footer nav ul li {
   box-shadow: 2px 3px 5px #343434;
 }
 
+@media (max-width: 400px) {
+  .contenedor-hero {
+    gap: 15px;
+  }
+  .titulo-inicio {
+    font-size: 14px;
+  }
+  .frase {
+    font-size: 12px;
+  }
+  .descripcion {
+    font-size: 8px;
+  }
+}
+@media (max-width: 576px) {
+  .contenedor-hero {
+    gap: 15px;
+  }
+  .titulo-inicio {
+    font-size: 6.5rem;
+  }
+  .frase {
+    font-size: 1.5rem;
+  }
+  .descripcion {
+    font-size: 1.2rem;
+  }
+  .titulo-nosotros {
+    font-size: 30px;
+  }
+  .frase-desc {
+    font-size: 20px;
+  }
+  .parrafo-historia {
+    width: 80%;
+    font-size: 15px;
+  }
+  .stat-numero {
+    font-size: 29px;
+  }
+  .mapa-contenedor {
+    width: 80%;
+  }
+  .calle-mapa {
+    font-size: 23px;
+  }
+  .horario {
+    font-size: 15px;
+  }
+  .desc-boton {
+    font-size: 12px;
+  }
+  .desc-boton span {
+    font-size: 13px;
+    font-weight: 800;
+  }
+}
+@media (max-width: 768px) {
+  .contenedor-hero {
+    gap: 18px;
+  }
+  .titulo-inicio {
+    font-size: 7rem;
+  }
+  .frase {
+    font-size: 2rem;
+  }
+  .descripcion {
+    font-size: 1.5rem;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
