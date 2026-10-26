@@ -3,12 +3,13 @@
 
 footer {
     @include m.dis-flex;
-    background-color: #d3c6a6;
+    background: linear-gradient(to bottom, #e8c656, v.$color-dorado);
     border-radius: 20px 20px 0 0;
 
     p {
         padding: 1rem;
         font-weight: 500;
+        font-family: "Geologica", sans-serif;
     }
 }
 
@@ -32,6 +33,10 @@ section.section-footer nav ul li {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+
+    p {
+        font-size: 16px;
+    }
 }
 
 .titulo-footer {
@@ -44,8 +49,8 @@ section.section-footer nav ul li {
 
 .letra-especial {
     font-family: v.$fuente-especial;
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 24px;
+    font-weight: 500;
     color: #2b2b2b;
     letter-spacing: 1px;
 }
@@ -54,11 +59,28 @@ section.section-footer nav ul li {
     text-decoration: none;
     color: #232323;
     font-weight: 500;
+    font-family: "Geologica", sans-serif;
+
+    transition: all 0.3s linear;
+
+    &:hover {
+        color: #5f5e5e;
+    }
 }
 
 .icon {
     width: 60;
     height: 50;
+    padding: 0.5rem;
+    background-color: #d8a80c;
+    border-bottom: 3px solid #313131;
+    border-radius: 40px;
+
+    transition: all 0.3s linear;
+
+    &:hover {
+        transform: translateY(-5px);
+    }
 }
 
 .link-footer {
